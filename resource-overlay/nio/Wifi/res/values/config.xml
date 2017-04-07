@@ -6,4 +6,7 @@
 <resources>
     <!-- Wifi driver supports 6GHz band for softap -->
     <bool translatable="false" name="config_wifiSoftap6ghzSupported">false</bool>
+
+    <!-- Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default" translatable="false">moto g(100)</string>
 </resources>

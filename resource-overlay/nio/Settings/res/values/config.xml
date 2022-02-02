@@ -24,5 +24,8 @@
         <item>Display P3 Boosted</item>
         <item>Display P3 Enchanced</item>
         <item>Native</item>
+
     </string-array>
+    <!-- Whether to show Smooth Display feature in Settings Options -->
+    <bool name="config_show_smooth_display">true</bool>
 </resources>

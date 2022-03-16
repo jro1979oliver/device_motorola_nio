@@ -285,4 +285,10 @@
         <item>3</item> <!-- P3 Enchance -->
         <item>2</item> <!-- Native -->
     </integer-array>
+
+    <!-- Specify if the fingerprint hardware support gestures-->
+    <bool name="config_fingerprintSupportsGestures">true</bool>
+
+    <!-- Indicates whether device has a power button fingerprint sensor. -->
+    <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
 </resources>

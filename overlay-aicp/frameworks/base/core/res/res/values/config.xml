@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2016 The CyanogenMod Project
+                   2017-2021 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Build fingerprint from a GMS certified device -->
+    <string name="config_certifiedFingerprint" translatable="false">google/angler/angler:6.0/MDB08L/2343525:user/release-keys</string>
+</resources>

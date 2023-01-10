@@ -32,8 +32,6 @@ lcd.ko
 llcc_perfmon.ko
 mpq-adapter.ko
 mpq-dmx-hw-plugin.ko
-qca_cld3_qca6490.ko
-qca_cld3_qca6390.ko
 rmnet_shs.ko
 rmnet_perf.ko
 rdbg.ko
@@ -62,4 +60,4 @@ qpnp_adaptive_charge.ko
 fpc1020_mmi.ko
 ets_fps_mmi.ko
 wl2864c.ko
-
+wlan.ko

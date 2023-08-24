@@ -18,7 +18,7 @@ TARGET_SCREEN_DENSITY := 480
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/lineageos_nio_defconfig
+KERNEL_DEFCONFIG := lineageos_nio_defconfig
 
 # SEPolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor

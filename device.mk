@@ -24,6 +24,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := nio
+
 # Init
 PRODUCT_PACKAGES += \
     init.device.rc \

@@ -8,9 +8,6 @@ include device/motorola/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/motorola/nio
 
-# Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := nio
-
 # Display
 TARGET_SCREEN_DENSITY := 480
 

@@ -2,6 +2,37 @@
 # system.prop for qssi
 #
 
+## Audio
+#Enable music through deep buffer
+audio.deep_buffer.media=true
+#Enable offload audio video playback by default
+audio.offload.video=true
+# Reduce client buffer size for fast audio output tracks
+af.fast_track_multiplier=1
+#offload minimum duration set to 30sec
+audio.offload.min.duration.secs=30
+#offload pausetime out duration to 3 secs to inline with other outputs
+audio.sys.offload.pstimeout.secs=3
+#audio becoming noisy intent broadcast delay
+audio.sys.noisy.broadcast.delay=500
+#audio device switch mute latency factor for draining unmuted data
+audio.sys.mute.latency.factor=2
+#audio device switch mute latency to absorb routing activities
+audio.sys.routing.latency=0
+#enable deep buffer
+media.stagefright.audio.deep=false
+
+## Display
+persist.demo.hdmirotationlock=false
+
+## DPM
+persist.vendor.dpm.feature=11
+
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 #rild.libargs=-d /dev/smd0
 persist.rild.nitz_plmn=
@@ -159,3 +190,6 @@ arm64.memtag.process.system_server=off
 
 # Disable blur on app launch
 ro.launcher.blur.appLaunch=0
+
+# Vendor
+ro.vendor.qti.va_aosp.support=1

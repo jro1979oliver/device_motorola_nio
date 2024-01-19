@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_nio.mk
+    $(LOCAL_DIR)/evolution_nio.mk

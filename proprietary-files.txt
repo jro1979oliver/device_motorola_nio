@@ -162,7 +162,7 @@ vendor/firmware/CAMERA_ICP.elf
 -product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
 -product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
 -product/priv-app/MotCamera3/MotCamera3.apk;OVERRIDES=Aperture,Camera2;PRESIGNED
--system_ext/etc/permissions/privapp-permissions-com.motorola.ccc.notificationQ.xml
+-system_ext/etc/permissions/privapp-permissions-com.motorola.ccc.notificationQ.xml|2ce71490836ba870802c03bdcbec707f1597e3ab
 -system_ext/etc/permissions/privapp-permissions-com.motorola.imagertuning_V2.xml
 -system_ext/etc/sysconfig/com.motorola.ccc.notification.powersaveQ.xml
 -system_ext/etc/sysconfig/hiddenapi-whitelist-com.motorola.ccc.notificationQ.xml

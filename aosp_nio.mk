@@ -10,6 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product-if-exists,vendor/certification/config.mk)
 
 # Inherit from nio device
 $(call inherit-product, device/motorola/nio/device.mk)

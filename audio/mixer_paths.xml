@@ -347,12 +347,12 @@
     <ctl name="TX SMIC MUX7" value="ZERO" />
 
     <!-- Volume controls -->
-    <ctl name="RX_RX0 Digital Volume" value="84" />
-    <ctl name="RX_RX1 Digital Volume" value="84" />
+    <ctl name="RX_RX0 Digital Volume" value="88" />
+    <ctl name="RX_RX1 Digital Volume" value="88" />
     <ctl name="RX_RX2 Digital Volume" value="84" />
-    <ctl name="HPHL Volume" value="20" />
-    <ctl name="HPHR Volume" value="20" />
-    <ctl name="EAR PA GAIN" value="G_6_DB" />
+    <ctl name="HPHL Volume" value="22" />
+    <ctl name="HPHR Volume" value="22" />
+    <ctl name="EAR PA GAIN" value="G_DEFAULT" />
 
     <ctl name="TX_DEC0 Volume" value="90" />
     <ctl name="TX_DEC1 Volume" value="90" />
@@ -527,6 +527,8 @@
         <ctl name="EAR_RDAC Switch" value="1" />
         <ctl name="RX_EAR Mode" value="ON" />
 <!-- hp-output 1 -->
+        <ctl name="EAR SPKR PA Gain" value="G_3_DB" />
+        <ctl name="EAR PA Gain" value="G_3_DB" />
         <ctl name="RX_MACRO RX0 MUX" value="AIF1_PB" />
         <ctl name="RX_MACRO RX1 MUX" value="AIF1_PB" />
         <ctl name="RX_CDC_DMA_RX_0 Channels" value="Two" />
